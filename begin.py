@@ -229,11 +229,11 @@ def calc_log_loss(game_dict):
     loss = -(loss)/n
     return loss
 
-teams_filename = "teams.csv"
-season_results = "regular_season_results.csv"
-t_teams_fn = "tourney_seeds.csv"
-prediction_fn = "prediction.csv"
-results_fn = "tourney_results.csv"
+teams_filename = "data/teams.csv"
+season_results = "data/regular_season_results.csv"
+t_teams_fn = "data/tourney_seeds.csv"
+prediction_fn = "data/prediction.csv"
+results_fn = "data/tourney_results.csv"
 log_file = "log.txt"
 
 games_learn_num = 8
